@@ -161,7 +161,7 @@ namespace FilesLesson_8
             try
             {
                 dirInfo.Delete(true); // Удаление со всем содержимым
-                Console.WriteLine("Каталог удален");
+                Console.WriteLine("Каталог удален!");
             }
             catch (Exception ex)
             {
